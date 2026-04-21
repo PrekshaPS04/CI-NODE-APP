@@ -23,7 +23,7 @@ pipeline {
             }
         }
     }
-    post{
+post{
         success{
             echo 'CI Pipeline Sucess'
         }
