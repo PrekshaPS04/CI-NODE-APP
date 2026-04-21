@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git clone 'https://github.com/PrekshaPS04/CI-NODE-APP.git'
+                git 'https://github.com/PrekshaPS04/CI-NODE-APP.git'
             }
         }
         stage('Install Dependencies') {
